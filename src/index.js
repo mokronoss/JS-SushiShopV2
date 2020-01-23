@@ -78,11 +78,11 @@ for (const maki of makis) {
 	const h4 = document.createElement('h4');
 	h4.innerText = maki.nom;
 
-	//   -------------- BONUS  VEG GREEN BIRDER ---------------------
-	if (h4.innerHTML === 'thon' || h4.innerHTML === 'saumon') {
-		console.log('test');
-		figure.style.border = '0px';
-	}
+	// //   -------------- BONUS  VEG GREEN BIRDER ---------------------
+	// if (h4.innerHTML === 'thon' || h4.innerHTML === 'saumon') {
+	// 	console.log('test');
+	// 	figure.style.border = '0px';
+	// }
 
 	divDes.appendChild(h4);
 
